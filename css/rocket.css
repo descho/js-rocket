@@ -3,7 +3,7 @@ body {
 }
 
 .left {
-	background-color: aquamarine;
+	background-color: #ff90a4;
 	position: fixed;
 	width: 50%;
 	height: 100%;
@@ -15,7 +15,9 @@ body {
 	text-align: center;
 	padding: 20px;
 }
-
+a {
+	color: black;
+}
 a.button {
 	display: inline-block;
 	background-color: white;
@@ -27,13 +29,14 @@ a.button {
 	text-decoration: none;
 	text-transform: uppercase;
 	border-radius: 3px;
-	transition: background-color 300ms;
+	transition: background-color, letter-spacing 300ms;
 }
 a.button:hover {
-	background-color: aliceblue;
+	background-color: #fff0f6;
+	letter-spacing: 4px;
 }
 .right {
-	background-color: aliceblue;
+	background-color: #fff0f6;
 	position: fixed;
 	width: 50%;
 	height: 100%;
